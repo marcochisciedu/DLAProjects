@@ -5,3 +5,5 @@ tqdm
 wandb
 pandas
 seaborn
+ttach
+opencv-python
