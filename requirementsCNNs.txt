@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scikit-learn 
+tqdm
+wandb
+pandas
+seaborn
+opencv-python
+ttach
