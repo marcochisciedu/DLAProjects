@@ -1,12 +1,12 @@
 # DLAProjects
 
 ## Requirements
-Requirements to repreduce the results of "Lab1-CNNs.ipynb" :
+Requirements to reproduce the results of "Lab1-CNNs.ipynb" :
 
 ```
 pip install -r requirementsCNN.txt
 ```
-and pytorch
+and pytorch.
 
 ## Lab1-CNNs
 
