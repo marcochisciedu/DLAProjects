@@ -16,7 +16,7 @@ This laboratory is dedicated to tring to duplicate, on a smaller scale, the resu
 
 Deeper networks do not guarantee more reduction in training/validation loss or an increase in validation/testing accuracy.
 
-The first section cointains the results of training and evaluating MLP with different depths on MNIST. Each depth is explored with three different runs with different random seeds (since "luck" could influence the outcome), their test accuracy, validation accuracy, validation loss and training loss are grouped together showing their mean and variance.
+The first section cointains the results of training and evaluating MLPs with different depths on MNIST. Each depth is explored with three different runs with different random seeds (since "luck" could influence the outcome), their test accuracy, validation accuracy, validation loss and training loss are grouped together showing their mean and variance.
 
 The second sections contains the results of training and evaluating CNNs with different layer lists (how many blocks the CNN has for each type of "layer") on Cifar10.
 The objective, once again, is to test how making CNNs deeper, with or without residual connections, affects their performances. Since CNNs are more stable and take more time training, there is only one run for each layer list.
