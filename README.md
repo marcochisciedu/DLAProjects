@@ -8,6 +8,22 @@ pip install -r requirementsCNN.txt
 ```
 and pytorch.
 
+Requirements to reproduce the results of "Lab3-DRL.ipynb" : 
+
+```
+pip install -r requirementsDRL.txt
+```
+and pytorch.
+ 
+To make the video recording possible it might also be required to run:
+```
+pip install moviepy --upgrade
+```
+and
+```
+#pip install ffmpeg --upgrade
+```
+
 ## Lab1-CNNs
 
 This laboratory is dedicated to trying to duplicate, on a smaller scale, the results of the ResNet paper:
