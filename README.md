@@ -40,6 +40,13 @@ The objective, once again, is to test how making CNNs deeper, with or without re
 Lastly, Grad-CAM, implemented following the math and instructions in the given paper, and some examples of its use with different Neural Networks and datasets. For each Neural Network I used different layers' features maps to compute Grad-CAM, exploring which were the saliency points of each image at different "depths" in the network.
 
 
-## Lab3
+## Lab3-DRL
 
+This laboratory is focused on getting more advanced versions of Deep Reinforcement Learning algorithms up and running. Deep Reinforcement Learning is **hard**, and getting agents to stably train can be frustrating and requires quite a bit of subtlety in analysis of intermediate results. We will start by implementing `REINFORCE` on the [Cartpole environment](https://gymnasium.farama.org/environments/classic_control/cart_pole/).
+
+In the first section `REINFORCE` is tested on the Cartpole environment using the standard baseline while changing the temperature and gamma.
+Since training the policy is stochastic, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments. The 5 runs are aggregated together showing their mean and variance.
+
+The second section contains the results of the experiments with `REINFORCE` on Cartpole using different kinds of baselines (no baseline, standard baseline and a Value Net as a baseline). I also experimented with changing the number of layers of the Policy and Value Nets and with much longer runs with two of the best settings (standard baseline and ValueNet) to see if their performance gap was due to the number of training episodes.
+Once again, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments.
 
