@@ -21,8 +21,9 @@ pip install moviepy --upgrade
 ```
 and
 ```
-#pip install ffmpeg --upgrade
+pip install ffmpeg --upgrade
 ```
+
 
 ## Lab1-CNNs
 
