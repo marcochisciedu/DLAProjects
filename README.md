@@ -51,3 +51,4 @@ Since training the policy is stochastic, for each setting I performed the policy
 The second section contains the results of the experiments with `REINFORCE` on Cartpole using different kinds of baselines (no baseline, standard baseline and a Value Net as a baseline). I also experimented with changing the number of layers of the Policy and Value Nets and with much longer runs with two of the best settings (standard baseline and ValueNet) to see if their performance gap was due to the number of training episodes.
 Once again, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments.
 
+Lastly, solving the OpenAI CarRacing-v2 environment. Using Deep Q Learning to train an agent that is able to solve that environment, approximating the q value function with a CNN that takes in input a stack of grayscale frames of the game.
