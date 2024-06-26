@@ -3,6 +3,7 @@ matplotlib
 gymnasium
 pygame
 moviepy
+swig
 gymnasium[box2d]
 
 #pip install moviepy --upgrade
