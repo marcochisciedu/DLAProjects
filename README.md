@@ -24,6 +24,13 @@ and
 pip install ffmpeg --upgrade
 ```
 
+Requirements to reproduce the results of "Lab4-OOD.ipynb" :
+
+```
+pip install -r requirementsOOD.txt
+```
+and pytorch.
+
 
 ## Lab1-CNNs
 
@@ -52,3 +59,11 @@ The second section contains the results of the experiments with `REINFORCE` on C
 Once again, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments.
 
 Lastly, solving the OpenAI CarRacing-v2 environment. Using Deep Q Learning to train an agent that is able to solve that environment, approximating the q value function with a CNN that takes in input a stack of grayscale frames of the game.
+
+## Lab4-OOD
+
+The goal of this laboratory is to develop a methodology for detecting OOD samples and measuring the quality of OOD detection. It also includes some experiments incorporating adversarial examples during training to make models more robust to adversarial attacks.
+
+The first section is dedicated to building a simple OOD detection pipeline using an ID (CIFAR10) and OOD datasets (Fake Data and CIFAR100) and implementing some performance metrics to evaluate OOD detection (ROC and PR curves).
+
+Inside the second section there are some experiments with enhancing a base model to be (more) robust to adversarial attacks. After implementing and testing Fast Gradient Sign Method (FGSM), using various epsilons, it is used to augment the model training with adversarial examples. To conclude, it is tested whether the augmented model is more (or less) robust to OOD samples using the OOD detection pipeline and metrics previously implemented.
