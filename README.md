@@ -1,14 +1,14 @@
 # DLAProjects
 
 ## Requirements
-Requirements to reproduce the results of "Lab1-CNNs.ipynb" :
+### Requirements to reproduce the results of "Lab1-CNNs.ipynb" :
 
 ```
 pip install -r requirementsCNN.txt
 ```
 and pytorch.
 
-Requirements to reproduce the results of "Lab3-DRL.ipynb" : 
+### Requirements to reproduce the results of "Lab3-DRL.ipynb" : 
 
 ```
 pip install -r requirementsDRL.txt
@@ -24,7 +24,7 @@ and
 pip install ffmpeg --upgrade
 ```
 
-Requirements to reproduce the results of "Lab4-OOD.ipynb" :
+### Requirements to reproduce the results of "Lab4-OOD.ipynb" :
 
 ```
 pip install -r requirementsOOD.txt
