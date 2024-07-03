@@ -52,13 +52,14 @@ Lastly, Grad-CAM, implemented following the math and instructions in the given p
 
 This laboratory is focused on getting more advanced versions of Deep Reinforcement Learning algorithms up and running. Deep Reinforcement Learning is **hard**, and getting agents to stably train can be frustrating and requires quite a bit of subtlety in analysis of intermediate results. We will start by implementing `REINFORCE` on the [Cartpole environment](https://gymnasium.farama.org/environments/classic_control/cart_pole/).
 
-In the first section `REINFORCE` is tested on the Cartpole environment using the standard baseline while changing the temperature and gamma.
-Since training the policy is stochastic, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments. The 5 runs are aggregated together showing their mean and variance.
+In the first section, `REINFORCE` is tested on the Cartpole environment using the standard baseline while changing the temperature and gamma.
+Since training the policy is stochastic, for each setting, I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments. The 5 runs are aggregated together, showing their mean and variance.
 
 The second section contains the results of the experiments with `REINFORCE` on Cartpole using different kinds of baselines (no baseline, standard baseline and a Value Net as a baseline). I also experimented with changing the number of layers of the Policy and Value Nets and with much longer runs with two of the best settings (standard baseline and ValueNet) to see if their performance gap was due to the number of training episodes.
-Once again, for each setting I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments.
+Once again, for each setting, I performed the policy training 5 times with 5 different seeds to be able to replicate the experiments.
 
-Lastly, solving the OpenAI CarRacing-v2 environment. Using Deep Q Learning to train an agent that is able to solve that environment, approximating the q value function with a CNN that takes in input a stack of grayscale frames of the game.
+Lastly: solving the OpenAI CarRacing-v2 environment, a top-down racing environment with a randomly generated track. Using Deep Q Learning to train an agent that is able to solve that environment, approximating the q value function with a CNN that takes in input a stack of grayscale frames of the game. In the "Selected Videos DRL" folder there will be all the videos I will cite and some extra videos to show the agents' driving skills.
+
 
 ## Lab4-OOD
 
