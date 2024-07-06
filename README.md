@@ -67,4 +67,6 @@ The goal of this laboratory is to develop a methodology for detecting OOD sample
 
 The first section is dedicated to building a simple OOD detection pipeline using an ID (CIFAR10) and OOD datasets (Fake Data and CIFAR100) and implementing some performance metrics to evaluate OOD detection (ROC and PR curves).
 
-Inside the second section there are some experiments with enhancing a base model to be (more) robust to adversarial attacks. After implementing and testing Fast Gradient Sign Method (FGSM), using various epsilons, it is used to augment the model training with adversarial examples. To conclude, it is tested whether the augmented model is more (or less) robust to OOD samples using the OOD detection pipeline and metrics previously implemented.
+Inside the second section, there are some experiments with enhancing a base model to be (more) robust to adversarial attacks. After implementing and testing Fast Gradient Sign Method (FGSM), using various epsilons, it is used to augment the model training with adversarial examples. To conclude, it is tested whether the augmented model is more (or less) robust to OOD samples using the OOD detection pipeline and metrics previously implemented.
+
+The purpose of the last section is to show and evaluate the performances of a targeted version of the Fast Gradient Sign Method (FGSM). To do so it is tested using different kinds of target labels (hand-selected, second most likely and least likely) on the CIFAR10 test dataset with the default CNN model.
